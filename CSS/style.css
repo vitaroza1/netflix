@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    width: 200px;
+    height: 80px;
+}
+body{
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801),#0000003d),  url(../netflix/netflix-fondo.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(1px);
+  
+    
+}
+.header{
+    padding: 24px 48px;
+    margin-right: 112px;
+    margin-left: 112px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.idioma{
+    width: 131px;
+    height: 32px;
+    padding: 6px36px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+.sesion{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 131px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sesion:hover{
+    background-color: #be0202;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.texto1{
+    color: white;
+    font-size: 48px;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.texto2{
+    color: white;
+    font-size: 24px;
+    margin: 16px;
+}
+.texto3{
+    color: white;
+    font-size: 20px;
+}
+.email{
+    margin-top: 18px;
+    padding: 24px 16px 8px;
+    font-size: 16px;
+    width: 250px;
+    height: 14px;
+    text-align: left;
+    border-radius: 8px;
+}
+.boton-comenzar{
+    background-color: red;
+    color: white;
+    width: 189px;
+    height: 56px;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.boton-comenzar:hover{
+    background-color: #be0202;
+}
+@media screen and (max-width: 600px) {
+
+    .logo{
+        margin: 0px;
+    }
+    .header {
+        height: 5vh;
+        width: 100vw;
+        margin-left: 0px;
+    }
+    .idioma{
+        width: 50px;
+    }
+    .sesion{
+        margin-right: 0px;
+
+    }
+    .section {
+        height: vh;
+    }
+    .texto1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .texto2{
+        text-align: center;
+    }
+    .texto3{
+        text-align: center;
+    }
+
+}

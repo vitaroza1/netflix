@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),#00000054),  url(../netflix/netflix-fondo.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(1px);
+  
+}
